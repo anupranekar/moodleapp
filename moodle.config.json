@@ -1,6 +1,6 @@
 {
-    "app_id": "com.moodle.moodlemobile",
-    "appname": "Moodle Mobile",
+    "app_id": "com.bitkea.scholarlms",
+    "appname": "ScholarLMS Mobile",
     "versioncode": 50001,
     "versionname": "5.0.0",
     "cache_update_frequency_usually": 420000,
@@ -68,18 +68,7 @@
         "zh-tw": "正體中文"
     },
     "wsservice": "moodle_mobile_app",
-    "demo_sites": {
-        "student": {
-            "url": "https://school.moodledemo.net",
-            "username": "student",
-            "password": "moodle25"
-        },
-        "teacher": {
-            "url": "https://school.moodledemo.net",
-            "username": "teacher",
-            "password": "moodle25"
-        }
-    },
+    "demo_sites": "",
     "defaultZoomLevel": "none",
     "zoomlevels": {
         "none": 100,
@@ -92,18 +81,15 @@
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https://moodle.net/moodle-app-privacy/",
+    "privacypolicy": "https://www.scholarlms.com/privacy-policy/",//<SLMS_CUSTOM_CHANGE_ANUP_08042025>
     "notificoncolor": "#f98012",
     "enableanalytics": false,
     "enableonboarding": true,
     "forceColorScheme": "",
     "forceLoginLogo": false,
-    "showTopLogo": "hidden",
+    "showTopLogo": "online",
     "ioswebviewscheme": "moodleappfs",
-    "appstores": {
-        "android": "com.moodle.moodlemobile",
-        "ios": "id633359593"
-    },
+    "appstores": "",
     "wsrequestqueuelimit": 10,
     "wsrequestqueuedelay": 100,
     "calendarreminderdefaultvalue": 3600,
